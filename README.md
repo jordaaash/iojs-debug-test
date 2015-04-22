@@ -13,7 +13,11 @@ git apply --stat debug.patch
 make
 make install
 n io 1.8.1
+cd ..
 git clone https://github.com/jordansexton/iojs-debug-test.git
+cd iojs-debug-test
+npm install
+wstorm .
 ```
 
 ## Debug in WebStorm
