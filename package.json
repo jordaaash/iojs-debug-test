@@ -1,0 +1,19 @@
+{
+    "name":         "iojs-debug-test",
+    "version":      "0.1.0",
+    "author":       "Jordan Sexton <jordan@jordansexton.com>",
+    "contributors": [
+        {
+            "name":  "Jordan Sexton",
+            "email": "jordan@jordansexton.com"
+        }
+    ],
+    "private":      true,
+    "engines":      {
+        "node": "*",
+        "iojs": "*"
+    },
+    "dependencies": {
+        "babel-core": "latest"
+    }
+}
